@@ -1,0 +1,422 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body {
+  background: #FEFCFD;
+  /* Цвет фона и путь к файлу */
+  font-size: 24px;
+}
+#first_block {
+  position: relative;
+  display: block;
+  height: 722px;
+  background: rgba(0, 0, 0, 0.45) url(img/background.jpg) no-repeat center;
+  background-blend-mode: darken;
+}
+#first_block #header:hover {
+  background: rgba(0, 0, 0, 0.4) no-repeat center;
+  background-blend-mode: darken;
+  transition: 0.5s;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#first_block #header {
+  transition: 0.5s;
+  color: #FEFCFD;
+  /* Цвет текста */
+  display: flex;
+  height: 90px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+#first_block #header #left_logo {
+  display: flex;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+#first_block #header #left_logo #branching {
+  margin: 20px 30px;
+  content: url("img/vector.png");
+  height: 58px;
+}
+#first_block #header #left_logo a#naming {
+  margin: 20px 0;
+  color: #EBF2FA;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 41px;
+}
+#first_block #header #left_logo a#naming:link {
+  text-decoration: none;
+  transition: 0.5s;
+}
+#first_block #header #left_logo a#naming:visited {
+  text-decoration: none;
+  transition: 0.5s;
+}
+#first_block #header #left_logo a#naming:hover {
+  color: #FEFCFD;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#first_block #header #left_logo a#naming:active {
+  color: #48BEFF;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#first_block #header #center {
+  margin: 20px 30px;
+  display: flex;
+  line-height: 41px;
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+#first_block #header #center .menu {
+  color: #EBF2FA;
+  margin-left: 30px;
+}
+#first_block #header #center a.menu:link {
+  text-decoration: none;
+  transition: 0.5s;
+}
+#first_block #header #center a.menu:visited {
+  text-decoration: none;
+  transition: 0.5s;
+}
+#first_block #header #center a.menu:hover {
+  color: #FEFCFD;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#first_block #header #center a.menu:active {
+  color: #48BEFF;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#first_block #header #right_icons {
+  margin: 20px 30px;
+  display: flex;
+  line-height: 29px;
+}
+#first_block #header #right_icons #phone {
+  width: 50px;
+  height: 50px;
+  content: url("img/phone.png");
+  transition: 0.5s;
+}
+#first_block #header #right_icons #phone:hover {
+  content: url("img/phone_active.png");
+  transition: 0.5s;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+}
+#first_block #header #right_icons #search {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  content: url("img/search.png");
+}
+#first_block #header #right_icons #search:hover {
+  content: url("img/search_active.png");
+}
+#first_block #header #right_icons #translate {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  content: url("img/translate.png");
+}
+#first_block #header #right_icons #translate:hover {
+  content: url("img/translate_active.png");
+}
+#first_block #about_me {
+  display: block;
+  background: rgba(254, 252, 253) url(img/sculpture.png) no-repeat center;
+  opacity: 0.8;
+  transition-duration: 0.5s;
+  background-size: 331px 485px;
+  padding: 30px;
+  background-clip: padding-box;
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-left: 118px;
+  height: 500px;
+  width: 380px;
+}
+#first_block #about_me #name {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#first_block #about_me #about {
+  margin: 15px 20px 30px;
+}
+#first_block #about_me #button_hiring:hover {
+  background: rgba(254, 252, 253, 0.65);
+  transition: 0.5s;
+}
+#first_block #about_me #button_hiring {
+  transition: 0.5s;
+  font-weight: bolder;
+  padding: 15px;
+  border: 2px solid #48BEFF;
+  margin: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+#first_block #about_me #button_info:hover {
+  background: rgba(254, 252, 253, 0.65);
+  transition: 0.5s;
+}
+#first_block #about_me #button_info {
+  background: rgba(254, 252, 253, 0.45);
+  transition: 0.5s;
+  padding: 15px 15px 15px 0;
+  border: 2px solid #2E294E;
+  margin: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+#first_block #about_me #button_info #down_arrow {
+  content: url(img/arrow.png);
+  height: 25px;
+  width: 25px;
+}
+#first_block #about_me #button_info a#about_info_link {
+  display: block;
+  font-weight: normal;
+}
+#first_block #about_me #button_info a#about_info_link:link {
+  text-decoration: none;
+}
+#first_block #about_me #button_info a#about_info_link:visited {
+  color: green;
+  text-decoration: none;
+}
+#first_block #about_me #button_info a#about_info_link:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+#first_block #about_me #button_info a#about_info_link:active {
+  color: #48BEFF;
+  text-decoration: none;
+}
+#first_block #about_me #icons_flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 28px;
+}
+#first_block #about_me #icons_flex #inter {
+  content: url(img/inter.png);
+  height: 45px;
+  width: 45px;
+}
+#first_block #about_me #icons_flex #oop {
+  content: url(img/oop.png);
+  height: 45px;
+  width: 45px;
+}
+#first_block #about_me #icons_flex #html {
+  content: url(img/html.png);
+  height: 45px;
+  width: 45px;
+}
+#first_block #about_me #icons_flex #student {
+  content: url(img/student.png);
+  height: 45px;
+  width: 45px;
+}
+#first_block #about_me:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.5s;
+}
+#first_block #gradient {
+  background: linear-gradient(0deg, #fefcfd 0%, #fefcfd 30%, rgba(0, 212, 255, 0) 100%);
+  width: 100%;
+  height: 8%;
+  position: absolute;
+  bottom: 0;
+}
+#telegram {
+  content: url("img/telegram.png");
+  position: fixed;
+  bottom: 4.5%;
+  right: 2%;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  width: 7%;
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+}
+#telegram:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.5s;
+}
+#more_about {
+  background: #FEFCFD;
+}
+#more_about #general_flex:target {
+  border: 0.5px solid #2D2E2E;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#more_about #general_flex {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+#more_about #general_flex #thinking_sculpture {
+  border: 1px solid #2E294E;
+  border-radius: 10px;
+  content: url("img/about_sculpture.png");
+  transform: scale(0.85);
+}
+#more_about #general_flex #more_about_me {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#more_about #general_flex #more_about_me #usual_text {
+  margin: 0 80px 0 0;
+}
+#more_about #general_flex #more_about_me #hire_button {
+  font-weight: bolder;
+  font-size: 38px;
+  padding: 25px;
+  border: 2px solid #48BEFF;
+  margin: 30px 20px 30px 130px;
+  text-align: center;
+  border-radius: 10px;
+  width: 450px;
+  height: 100px;
+}
+#more_about #footer {
+  transition-duration: 0.5s;
+  opacity: 0.95;
+  height: 140px;
+  background: #2D2E2E;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#more_about #footer #buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fefcfd;
+  margin: 0 35% 0;
+  padding: 20px 0 0 0;
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+#more_about #footer #buttons .line {
+  border-left: 3px solid #EBF2FA;
+  border-radius: 50px;
+  height: 15px;
+}
+#more_about #footer #buttons .menu {
+  display: block;
+  color: #EBF2FA;
+}
+#more_about #footer #buttons a.menu:link {
+  text-decoration: none;
+  transition: 0.5s;
+}
+#more_about #footer #buttons a.menu:visited {
+  text-decoration: none;
+  transition: 0.5s;
+}
+#more_about #footer #buttons a.menu:hover {
+  color: #FEFCFD;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#more_about #footer #buttons a.menu:active {
+  color: #48BEFF;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#more_about #footer #messengers {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 41.1% 0;
+}
+#more_about #footer #messengers #telegram_button {
+  transition-duration: 0.5s;
+  opacity: 0.75;
+  background: #fefcfd;
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+  height: 56px;
+}
+#more_about #footer #messengers #telegram_button #t_button_scaling {
+  transform: scale(0.75);
+}
+#more_about #footer #messengers #telegram_button:hover {
+  opacity: 1;
+}
+#more_about #footer #messengers #gmail {
+  transition-duration: 0.5s;
+  opacity: 0.75;
+  background: #fefcfd;
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+  height: 56px;
+}
+#more_about #footer #messengers #gmail #g_button_scaling {
+  transform: scale(0.75);
+}
+#more_about #footer #messengers #gmail:hover {
+  opacity: 1;
+}
+#more_about #footer:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+#more_about #footer:target {
+  animation: highlight 2s ease;
+}
+@keyframes highlight {
+  0% {
+    opacity: 0.95;
+  }
+  50% {
+    border: 3px solid #48BEFF;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.95;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
